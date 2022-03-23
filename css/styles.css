@@ -11810,3 +11810,14 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
