@@ -11830,3 +11830,49 @@ section.resume-section .resume-section-content {
 .text center {
   text-align: center;
 }
+.row_p {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.container_p {
+  position: relative;
+  width: 20%;
+}
+
+.image_p {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle_p {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-20%, -20%);
+  -ms-transform: translate(-20%, -20%);
+  text-align: flex;
+}
+
+.container_p:hover .image_p {
+  opacity: 0.1;
+}
+
+.container_p:hover .middle_p {
+  opacity: 1;
+}
+
+.text_p {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  align-content: center;
+}
