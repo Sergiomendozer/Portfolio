@@ -350,16 +350,28 @@
         <div class="resume-section-content">
           <h2 class="mb-5">Contact Me</h2>
           <body>
-                  <div>
-                    <div class="contact-info h-100">
-                      <p class="mb-5">
-                        Feel free to contact me about hiring. You can send message me by email, phone number or on Linkedin
-                      </p>
-                      <ul class="list-unstyled">
-                        <li class="d-flex">
-                            <h3>Contact Information</h3>
-                        </li>
-                        <li class="d-flex">
+            <div>
+            <div class="contact-info h-100">
+                <p class="mb-5">
+                    Feel free to contact me about hiring. You can send message me by email, phone number or on Linkedin
+                </p>
+                <form action = "https://formsubmit.co/sergiomendozansx@gmail.com" method = "POST">
+                    <h3>Contact form</h3>
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <!-- <p>Name</p> -->
+                    <input type="text" name = "name" placeholder ="Name"required>
+                    <!-- <p>Email</p> -->
+                    <input type ="hidden" name="text" value="https://sergiomendozer.github.io/Portfolio/pages/thankyou">
+                    <input type="email" name = "email" placeholder ="Email"required>
+                    <!-- <p>Message</p> -->
+                    <input type="message" name = "message" placeholder ="Write your message here" required>
+                    <button type="Submit">Send</button>
+                </form>
+                    <ul class="list-unstyled">
+                    <li class="d-flex">
+                         <h3>Contact Information</h3>
+                    </li>
+                    <li class="d-flex">
                           <span class="wrap-icon icon-phone mr-3"></span>
                           <span class="text">+1 (818) 688 1323</span>
                         </li>
@@ -382,14 +394,7 @@
               </div>
             </div>
         </section>
-        <div class="section" id="DSS">
-            <div class="section-content">
-                <h>TESTS DSS</h>
-                <!-- href="#awards" -->
-            </div>
-        </div>
-    
-        
+       
             <script src="contact_form/js/jquery-3.3.1.min.js"></script>
             <script src="contact_form/js/popper.min.js"></script>
             <script src="contact_form/js/bootstrap.min.js"></script>
