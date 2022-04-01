@@ -6,8 +6,34 @@ button {
   font-size: large;
   padding: 10px;
 }
-.column {
-  float: left;
-  width: fit-content;
-  padding: 20px;
+
+#port {
+  background-color: #09a0ef;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "main right right right right"
+    "footer footer footer footer footer";
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* padding: 20px 0; */
+  font-size: 20px;
+}
+
+.item1 {
+  grid-area: main;
+}
+.item2 {
+  grid-area: right;
+}
+.item3 {
+  grid-area: footer;
+  text-align: center;
 }
