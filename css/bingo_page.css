@@ -1,9 +1,13 @@
 body {
-  background-color: aqua;
+  font-size: large;
 }
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+button {
+  background-color: #2ddb9c;
+  font-size: large;
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: fit-content;
+  padding: 20px;
 }
