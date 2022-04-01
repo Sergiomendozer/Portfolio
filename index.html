@@ -74,12 +74,12 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests"
+            <a class="nav-link js-scroll-trigger" href="#projects"
               > My Projects</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Contact info</a>
+            <a class="nav-link js-scroll-trigger" href="#contactme">Contact info</a>
           </li>
         </ul>
       </div>
@@ -298,7 +298,7 @@
       </section>
       <hr class="m-0" />
       <!-- Interests-->
-      <section class="resume-section" id="interests">
+      <section class="resume-section" id="projects">
         <div class="resume-section-content">
           <h2 class="mb-5">My Projects</h2>
           <p>
@@ -315,7 +315,7 @@
                 <img src="./assets/img/Bingo_Logo.png" class="image_p2" width="200" height = "200" />
                 <div class="middle_p2">
                     <p style="text-align:center">bingo</p>
-                    <button class="text_p2">Click for more info</button>
+                    <button onclick="window.location.href='/pages/bingo_project_info.html';" class="text_p2">Click for more info</button>
                 </div>
             </div>
             <div class="container_p">
@@ -323,53 +323,51 @@
                 <img src="./assets/img/DSS_icon.png" class="image_p" width="130" height = "200" />
                 <div class="middle_p">
                     <p>Detective Sudoku Solver</p>
-                <button class="text_p" href="#DSS">Click for more info</button>
+                <button onclick="window.location.href='https://w3docs.com';"class="text_p" href="#DSS">Click for more info</button>
                 </div>
             </div>
             <div class="container_p2">
                 <!-- Loan Sharks -->
                 <img src="./assets/img/LS_icon.png" class="image_p2" width="200" height = "200" />
                 <div class="middle_p2">
-                    <p style="text-align:center">Word Solver</p>
-                    <button class="text_p2">Click for more info</button>
+                    <p style="text-align:center">Loan Sharks</p>
+                    <button onclick="window.location.href='https://w3docs.com';"class="text_p2">Click for more info</button>
             </div>
             </div>
             <div class="container_p2">
                 <!-- Word Solver -->
                 <img src="./assets/img/WS_logo.png" class="image_p2" width="200" height = "200" />
                 <div class="middle_p2">
-                    <p style="text-align:center">Loan Sharks</p>
-                    <button class="text_p2">Click for more info</button>
+                    <p style="text-align:center">Word Solver</p>
+                    <button onclick="window.location.href='https://w3docs.com';"class="text_p2">Click for more info</button>
             </div>
             </div>
         </div>         
       </section>
       <hr class="m-0" />
       <!-- Contact info-->
-      <section class="resume-section" id="awards">
+      <section class="resume-section" id="contactme">
         <div class="resume-section-content">
           <h2 class="mb-5">Contact Me</h2>
           <body>
-            <div>
-            <div class="contact-info h-100">
-                <p class="mb-5">
-                    Feel free to contact me about hiring. You can send message me by email, phone number or on Linkedin
+                <p>
+                    Feel free to contact me about hiring. You can send message me via contact form, email, phone number or on Linkedin
                 </p>
                 <form action = "https://formsubmit.co/sergiomendozansx@gmail.com" method = "POST">
                     <h3>Contact form</h3>
                     <input type="hidden" name="_subject" value="New submission!">
-                    <!-- <p>Name</p> -->
                     <input type="text" name = "name" placeholder ="Name"required>
-                    <!-- <p>Email</p> -->
                     <input type ="hidden" name="text" value="https://sergiomendozer.github.io/Portfolio/pages/thankyou">
-                    <input type="email" name = "email" placeholder ="Email"required>
-                    <!-- <p>Message</p> -->
-                    <input type="message" name = "message" placeholder ="Write your message here" required>
-                    <button type="Submit">Send</button>
+                    <input type="email" name = "email" placeholder ="Email" required>
+                    <br>
+                    <input type="message" name = "message" placeholder ="Write your message here" size="43" style="height:100px; width:fit-content;" required>
+                    <br>
+                    <button type="Submit">Send Message</button>
                 </form>
+                <br> 
                     <ul class="list-unstyled">
                     <li class="d-flex">
-                         <h3>Contact Information</h3>
+                         <h4>Contact Information</h4>
                     </li>
                     <li class="d-flex">
                           <span class="wrap-icon icon-phone mr-3"></span>
@@ -392,7 +390,6 @@
                   </div>
                 </div>
               </div>
-            </div>
         </section>
        
             <script src="contact_form/js/jquery-3.3.1.min.js"></script>
