@@ -11919,8 +11919,9 @@ section.resume-section .resume-section-content {
 }
 #Hire_me {
   background-color: #bababa;
+  padding: 15px;
 }
 
-#hire_button{
-background-color: #09a0ef;
+#hire_button {
+  background-color: #09a0ef;
 }
