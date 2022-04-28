@@ -8,5 +8,6 @@
     "Tkinter",
     "touchpoints",
     "Udacity"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
