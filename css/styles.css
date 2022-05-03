@@ -11928,7 +11928,7 @@ section.resume-section .resume-section-content {
   padding: 15px;
   font-size: 20px;
 }
-{
+ {
   box-sizing: border-box;
 }
 
@@ -11944,7 +11944,9 @@ body {
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;
+}
 
 /* Clear floats after the columns */
 .row:after {
