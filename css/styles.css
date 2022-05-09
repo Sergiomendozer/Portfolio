@@ -11928,7 +11928,7 @@ section.resume-section .resume-section-content {
   padding: 15px;
   font-size: 20px;
 }
- /* {
+/* {
   box-sizing: border-box;
 } */
 
@@ -11966,8 +11966,21 @@ body {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  text-align: center;
+  /* text-align: center; */
   background-color: #f1f1f1;
+}
+
+#letter_1 {
+  grid-area: letter_1;
+}
+#letter_2 {
+  grid-area: letter_2;
+}
+
+.grid-container-letters {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "letter_1 letter_2";
 }
