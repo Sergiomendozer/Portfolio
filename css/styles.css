@@ -12009,11 +12009,20 @@ body {
   grid-area: github;
 }
 
+/* #SQL {
+  grid-area: SQL;
+}
+#C_sharp {
+  grid-area: C_sharp;
+}
+#net {
+  grid-area: net;
+} */
 .grid-container-skills {
   display: grid;
   gap: 10px;
   grid-template-areas:
     "python js HTML CSS"
-    "Bootstrap VScode Tkinter github"
-    
+    "Bootstrap VScode Tkinter github";
 }
+/* "SQL C_sharp net" */
