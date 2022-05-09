@@ -11984,3 +11984,36 @@ body {
   gap: 10px;
   grid-template-areas: "letter_1 letter_2";
 }
+#python {
+  grid-area: python;
+}
+#js {
+  grid-area: js;
+}
+#HTML {
+  grid-area: HTML;
+}
+#CSS {
+  grid-area: CSS;
+}
+#Bootstrap {
+  grid-area: Bootstrap;
+}
+#VScode {
+  grid-area: VScode;
+}
+#Tkinter {
+  grid-area: Tkinter;
+}
+#github {
+  grid-area: github;
+}
+
+.grid-container-skills {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "python js HTML CSS"
+    "Bootstrap VScode Tkinter github"
+    
+}
