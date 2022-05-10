@@ -12027,9 +12027,12 @@ section.resume-section .resume-section-content {
   font-size: 16px;
   align-content: center;
 }
-
-#Hire_me {
+.card-call {
   background-color: #bababa;
+  box-shadow: 10px 16px 10px 0 rgba(0, 1, 1, 0.2);
+  padding: 16px;
+}
+#Hire_me {
   padding: 15px;
   color: black;
 }
