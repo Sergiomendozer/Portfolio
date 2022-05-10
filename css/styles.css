@@ -11902,7 +11902,6 @@ section.resume-section .resume-section-content {
     -ms-transform: translate(20%, 20%); */
   text-align: flex;
 }
-
 .container_p2:hover .image_p2 {
   opacity: 0.1;
 }
@@ -11917,6 +11916,117 @@ section.resume-section .resume-section-content {
   font-size: 16px;
   align-content: center;
 }
+
+.container_p2 {
+  position: relative;
+  width: 25%;
+}
+
+.image_p2 {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle_p2 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  /* transform: translate(20%, 20%);
+    -ms-transform: translate(20%, 20%); */
+  text-align: flex;
+}
+.container_p2:hover .image_p2 {
+  opacity: 0.1;
+}
+
+.container_p2:hover .middle_p2 {
+  opacity: 1;
+}
+
+.text_p2 {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  align-content: center;
+}
+/* p3 */
+.container_p3 {
+  position: relative;
+  width: 25%;
+}
+
+.image_p3 {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle_p3 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  /* transform: translate(20%, 20%);
+      -ms-transform: translate(20%, 20%); */
+  text-align: flex;
+}
+.container_p3:hover .image_p2 {
+  opacity: 0.1;
+}
+
+.container_p3:hover .middle_p2 {
+  opacity: 1;
+}
+
+.text_p3 {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  align-content: center;
+}
+
+.container_p3 {
+  position: relative;
+  width: 25%;
+}
+
+/* .image_p3 {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+} */
+.middle_p3 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  /* transform: translate(20%, 20%);
+      -ms-transform: translate(20%, 20%); */
+  text-align: flex;
+}
+.container_p3:hover .image_p2 {
+  opacity: 0.1;
+}
+
+.container_p3:hover .middle_p3 {
+  opacity: 1;
+}
+
+.text_p3 {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  align-content: center;
+}
+
 #Hire_me {
   background-color: #bababa;
   padding: 15px;
