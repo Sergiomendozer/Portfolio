@@ -436,29 +436,33 @@
                 <p>
                     Feel free to contact me about hiring. You can send message me via contact form, email, phone number or on Linkedin
                 </p>
-                <form action = "https://formsubmit.co/sergiomendozansx@gmail.com" method = "POST">
-                    <h3>Contact form</h3>
-                    <input type="hidden" name="_subject" value="New submission!" >
-                    <input type="text" name = "name" placeholder ="Name" style="width: 24.7%;" required>
-                    <input type ="hidden" name="text" value="https://sergiomendozer.github.io/Portfolio/pages/thankyou">
-                    <input type="email" name = "email" placeholder ="Email"style="width: 24.7%;" required>
-                    <br>
-                    <textarea
-                        class="form-control"
-                          name="message"
-                          rows="5"
-                          placeholder="Message"
-                          style="width: 50%;"
-                          required
-                        ></textarea>
-                    <!-- <input type="message" name = "message" placeholder ="Write your message here" size="43" style="height:100px; width:fit-content;" required> -->
-                    <br>
-                    <button type="Submit">Send Message</button>
-                </form>
+            <div class="grid-container-contact">
+                <div class = "contact-form">
+                    <form action = "https://formsubmit.co/sergiomendozansx@gmail.com" method = "POST">
+                        <h3>Contact form</h3>
+                        <input type="hidden" name="_subject" value="New submission!" >
+                        <input type="text" name = "name" placeholder ="Name" style="width: 44%;" required>
+                        <input type ="hidden" name="text" value="https://sergiomendozer.github.io/Portfolio/pages/thankyou">
+                        <input type="email" name = "email" placeholder ="Email"style="width: 45%;" required>
+                        <br>
+                        <textarea
+                            class="form-control"
+                            name="message"
+                            rows="5"
+                            placeholder="Message"
+                            style="width: 90%;"
+                            required
+                            ></textarea>
+                        <!-- <input type="message" name = "message" placeholder ="Write your message here" size="43" style="height:100px; width:fit-content;" required> -->
+                        <br>
+                        <button type="Submit">Send Message</button>
+                    </form>
+                </div>
                 <br> 
+                <div class = "contact-info">
                     <ul class="list-unstyled">
                     <li class="d-flex">
-                         <h4>Contact Information</h4>
+                         <h3>Contact Information</h3>
                     </li>
                     <li class="d-flex">
                           <span class="wrap-icon icon-phone mr-3"></span>
@@ -478,9 +482,8 @@
                           </li>
                       </ul>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </section>
        
             <script src="contact_form/js/jquery-3.3.1.min.js"></script>

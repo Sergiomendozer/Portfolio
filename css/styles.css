@@ -12077,6 +12077,18 @@ body {
     margin-bottom: 20px;
   }
 }
+/* contact form & info */
+.contact-form {
+  grid-area: form;
+}
+.contact-info {
+  grid-area: info;
+}
+.grid-container-contact {
+  display: grid;
+  /* gap: 3px; */
+  grid-template-areas: "form info";
+}
 
 /* Style the counter cards */
 .card {
