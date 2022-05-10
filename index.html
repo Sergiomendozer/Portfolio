@@ -438,12 +438,20 @@
                 </p>
                 <form action = "https://formsubmit.co/sergiomendozansx@gmail.com" method = "POST">
                     <h3>Contact form</h3>
-                    <input type="hidden" name="_subject" value="New submission!">
-                    <input type="text" name = "name" placeholder ="Name"required>
+                    <input type="hidden" name="_subject" value="New submission!" >
+                    <input type="text" name = "name" placeholder ="Name" style="width: 24.7%;" required>
                     <input type ="hidden" name="text" value="https://sergiomendozer.github.io/Portfolio/pages/thankyou">
-                    <input type="email" name = "email" placeholder ="Email" required>
+                    <input type="email" name = "email" placeholder ="Email"style="width: 24.7%;" required>
                     <br>
-                    <input type="message" name = "message" placeholder ="Write your message here" size="43" style="height:100px; width:fit-content;" required>
+                    <textarea
+                        class="form-control"
+                          name="message"
+                          rows="5"
+                          placeholder="Message"
+                          style="width: 50%;"
+                          required
+                        ></textarea>
+                    <!-- <input type="message" name = "message" placeholder ="Write your message here" size="43" style="height:100px; width:fit-content;" required> -->
                     <br>
                     <button type="Submit">Send Message</button>
                 </form>
