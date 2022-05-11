@@ -12097,7 +12097,12 @@ body {
   /* text-align: center; */
   background-color: #f1f1f1;
 }
-
+.card-contact-info {
+  box-shadow: 10px 10px 9px 0 #00008b;
+  padding: 16px;
+  /* text-align: center; */
+  background-color: #09a0ef;
+}
 #letter_1 {
   grid-area: letter_1;
 }
