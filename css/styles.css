@@ -12133,12 +12133,16 @@ body {
 #VScode {
   grid-area: VScode;
 }
-#Tkinter {
-  grid-area: Tkinter;
+#SQL {
+  grid-area: SQL;
 }
 #github {
   grid-area: github;
 }
+
+/* #Tkinter {
+  grid-area: Tkinter;
+} */
 
 /* #SQL {
   grid-area: SQL;
@@ -12154,6 +12158,6 @@ body {
   gap: 10px;
   grid-template-areas:
     "python js HTML CSS"
-    "Bootstrap VScode Tkinter github";
+    "SQL Bootstrap VScode github";
 }
 /* "SQL C_sharp net" */
