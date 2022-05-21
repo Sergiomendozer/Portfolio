@@ -12133,9 +12133,12 @@ body {
 #VScode {
   grid-area: VScode;
 }
-#SQL {
-  grid-area: SQL;
+#TS {
+  grid-area: TS;
 }
+/* #SQL {
+  grid-area: SQL;
+} */
 #github {
   grid-area: github;
 }
@@ -12158,6 +12161,6 @@ body {
   gap: 10px;
   grid-template-areas:
     "python js HTML CSS"
-    "SQL Bootstrap VScode github";
+    "TS Bootstrap VScode github";
 }
 /* "SQL C_sharp net" */
