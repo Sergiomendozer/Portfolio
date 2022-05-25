@@ -12090,6 +12090,45 @@ body {
   grid-template-areas: "form info";
 }
 
+#container-skills-icon {
+  width: 100%;
+}
+
+#image-skills-icon {
+  display: block;
+  width: 100;
+  height: 100;
+}
+
+#overlay-skills-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #09a0ef;
+}
+
+#container-skills-icon:hover #overlay-skills-icon {
+  opacity: 1;
+}
+
+#text-skills-icon {
+  color: white;
+  font-size: 95%;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -webkit-transform: translate(-10%, -10%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+
 /* Style the counter cards */
 .card {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
