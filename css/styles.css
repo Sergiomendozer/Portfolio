@@ -12114,7 +12114,7 @@ body {
 }
 
 #container-skills-icon:hover #overlay-skills-icon {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 #text-skills-icon {
