@@ -12154,52 +12154,69 @@ body {
   gap: 10px;
   grid-template-areas: "letter_1 letter_2";
 }
-#python {
-  grid-area: python;
+/* SKills section */
+#Bootstrap {
+  grid-area: Bootstrap;
 }
-#js {
-  grid-area: js;
-}
-#HTML {
-  grid-area: HTML;
+#C_sharp {
+  grid-area: C;
 }
 #CSS {
   grid-area: CSS;
 }
-#Bootstrap {
-  grid-area: Bootstrap;
+#Figma {
+  grid-area: figma;
 }
-#VScode {
-  grid-area: VScode;
+#git {
+  grid-area: git;
+}
+#github {
+  grid-area: github;
+}
+#HTML {
+  grid-area: HTML;
+}
+#js {
+  grid-area: js;
+}
+#python {
+  grid-area: python;
+}
+#Markdown {
+  grid-area: MD;
+}
+#net {
+  grid-area: net;
+}
+#Numpy {
+  grid-area: npy;
+}
+#SASS {
+  grid-area: SASS;
+}
+#SQL {
+  grid-area: SQL;
 }
 #TS {
   grid-area: TS;
 }
-/* #SQL {
-  grid-area: SQL;
-} */
-#github {
-  grid-area: github;
-}
-
-/* #Tkinter {
+#Tkinter {
   grid-area: Tkinter;
-} */
+}
+#VS {
+  grid-area: VS;
+}
+#VScode {
+  grid-area: VScode;
+}
 
-/* #SQL {
-  grid-area: SQL;
-}
-#C_sharp {
-  grid-area: C_sharp;
-}
-#net {
-  grid-area: net;
-} */
 .grid-container-skills {
   display: grid;
   gap: 10px;
   grid-template-areas:
     "python js HTML CSS"
-    "TS Bootstrap VScode github";
+    "TS SASS SQL C"
+    "net Bootstrap VScode VS "
+    "git github figma MD"
+    "npy X X X";
 }
-/* "SQL C_sharp net" */
