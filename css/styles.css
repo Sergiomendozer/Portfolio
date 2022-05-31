@@ -12209,6 +12209,9 @@ body {
 #VScode {
   grid-area: VScode;
 }
+#liquid {
+  grid-area: liquid;
+}
 
 .grid-container-skills {
   display: grid;
@@ -12218,5 +12221,5 @@ body {
     "TS SASS SQL C"
     "net Bootstrap VScode VS "
     "git github figma MD"
-    "npy X X X";
+    "npy liquid X X";
 }
