@@ -12215,7 +12215,6 @@ body {
 #VScode {
   grid-area: VScode;
 }
-
 .grid-container-skills {
   display: grid;
   gap: 10px;
@@ -12224,5 +12223,5 @@ body {
     "TS SASS MySQL C"
     "net Bootstrap VScode VS "
     "git github MS_SQL figma"
-    "npy liquid MD X";
+    "npy liquid MD XX";
 }
