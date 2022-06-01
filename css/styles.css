@@ -12182,8 +12182,17 @@ body {
 #python {
   grid-area: python;
 }
+#liquid {
+  grid-area: liquid;
+}
 #Markdown {
   grid-area: MD;
+}
+#MS_SQL {
+  grid-area: MS_SQL;
+}
+#MySQL {
+  grid-area: MySQL;
 }
 #net {
   grid-area: net;
@@ -12193,9 +12202,6 @@ body {
 }
 #SASS {
   grid-area: SASS;
-}
-#SQL {
-  grid-area: SQL;
 }
 #TS {
   grid-area: TS;
@@ -12209,17 +12215,14 @@ body {
 #VScode {
   grid-area: VScode;
 }
-#liquid {
-  grid-area: liquid;
-}
 
 .grid-container-skills {
   display: grid;
   gap: 10px;
   grid-template-areas:
     "python js HTML CSS"
-    "TS SASS SQL C"
+    "TS SASS MySQL C"
     "net Bootstrap VScode VS "
-    "git github figma MD"
-    "npy liquid X X";
+    "git github MS_SQL figma"
+    "npy liquid MD X";
 }
