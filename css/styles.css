@@ -12220,8 +12220,8 @@ body {
   gap: 10px;
   grid-template-areas:
     "python js HTML CSS"
-    "TS SASS MySQL C"
+    "TS SASS MS_SQL C"
     "net Bootstrap VScode VS "
-    "git github MS_SQL figma"
+    "git github MySQL figma"
     "npy liquid MD XX";
 }
