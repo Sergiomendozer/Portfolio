@@ -1,0 +1,37 @@
+body {
+  font-size: large;
+}
+button {
+  background-color: #3a527f;
+  font-size: large;
+  padding: 10px;
+}
+
+#port {
+  background-color: #09a0ef;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "main right right right right"
+    "footer footer footer footer footer";
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+}
+
+.item1 {
+  grid-area: main;
+}
+.item2 {
+  grid-area: right;
+}
+.item3 {
+  grid-area: footer;
+  text-align: center;
+}
