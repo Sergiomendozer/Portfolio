@@ -35,3 +35,16 @@ button {
   grid-area: footer;
   text-align: center;
 }
+
+#Grand-Opening {
+  grid-area: GO;
+}
+#Pre-Order {
+  grid-area: PO;
+}
+
+.grid-container-projects {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "GO PO";
+}
