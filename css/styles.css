@@ -12207,6 +12207,9 @@ body {
 #Numpy {
   grid-area: npy;
 }
+#Ps {
+    grid-area: Ps;
+  }
 #SASS {
   grid-area: SASS;
 }
@@ -12230,5 +12233,5 @@ body {
     "TS SASS MS_SQL C"
     "net Bootstrap VScode VS "
     "git github MySQL figma"
-    "npy liquid MD XX";
+    "npy liquid MD Ps";
 }
